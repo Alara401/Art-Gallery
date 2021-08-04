@@ -1,5 +1,6 @@
+//* SIDE BAR JAVA SCRIPT 
 let sidebar = document.querySelector(".sidebar");
-let closeBtn = document.querySelector("#btn");
+let closeBtn = document.querySelector("#btn"); /*SIDE BAR BTN */
 let searchBtn = document.querySelector(".bx-search");
 
 closeBtn.addEventListener("click", ()=>{
