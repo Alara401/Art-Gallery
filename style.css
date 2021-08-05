@@ -1,4 +1,5 @@
-/* Google Font Link */
+/* Goog
+e Font Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -11,7 +12,7 @@
   left: 0;
   top: 0;
   height: 100%;
-  width: 78px;
+  width: 82px;
   background: #000000;
   padding: 6px 14px;
   z-index: 99;
@@ -20,7 +21,7 @@
 .sidebar.open{
   width: 250px;
 }
-.sidebar .logo-details{
+.logo-details{
   height: 60px;
   display: flex;
   align-items: center;
@@ -31,7 +32,7 @@
   transition: all 0.5s ease;
 }
 .sidebar .logo-details .logo_name{
-  color: #fff;
+  color: rgb(99, 22, 223);
   font-size: 20px;
   font-weight: 600;
   opacity: 0;
@@ -41,7 +42,7 @@
 .sidebar.open .logo-details .logo_name{
   opacity: 1;
 }
-.sidebar .logo-details #btn{
+.sidebar.logo-details #btn{
   position: absolute;
   top: 50%;
   right: 0;
@@ -116,7 +117,7 @@
   padding: 0 20px 0 50px;
   width: 100%;
 }
-.sidebar .bx-search{
+.sidebar-searchbar .bx-search{
   position: absolute;
   top: 50%;
   left: 0;
@@ -172,7 +173,7 @@
 }
 .sidebar li.profile{
   position: fixed;
-  height: 60px;
+  height: 70px;
   width: 78px;
   left: 0;
   bottom: -8px;
@@ -198,13 +199,14 @@
 }
 .sidebar li.profile .name,
 .sidebar li.profile .job{
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
   white-space: nowrap;
+  padding-bottom: 5px;
 }
 .sidebar li.profile .job{
-  font-size: 12px;
+  font-size: 14px;
 }
 .sidebar .profile #log_out{
   position: absolute;
@@ -217,6 +219,8 @@
   line-height: 60px;
   border-radius: 0px;
   transition: all 0.5s ease;
+  padding-right: 5px;
+  
 }
 .sidebar.open .profile #log_out{
   width: 50px;
@@ -224,11 +228,11 @@
 }
 .home-section{
   position: relative;
-  background: #E4E9F7;
+  background: #1f1b24;
   min-height: 100vh;
   top: 0;
-  left: 78px;
-  width: calc(100% - 78px);
+  left: 74px;
+  width: calc(100% - 74px);
   transition: all 0.5s ease;
   z-index: 2;
 }
@@ -238,67 +242,27 @@
 }
 .home-section .text{
   display: inline-block;
-  color: #11101d;
+  color: #ffffff;
   font-size: 25px;
   font-weight: 500;
-  margin: 18px
-}
+  margin:  24px;
+  text-align: justify;
+  
+  }
 @media (max-width: 420px) {
   .sidebar li .tooltip{
     display: none;
+    }
+    .nav-home{
+      float: right;
+    }
+    .nav-features{
+    float: right;
+    }
+    .nav-pricing{
+      float: right;
+    }
   }
-
-  /*         NAIGATION BAR CSS          */
-/*Other css*/
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  background-color: #11101d;
-
-}
-
-.li, a, button {
-  font-family: "Poppins" , sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-.header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
-
-}
-.nav_links {
-  list-style: none;
-  float: left;
-}
-
-.nav_links li {
-  float: left;
-  padding: 0px 20px;
-}
-.nav_links li a {
-  transition: all 0.3s ease 0s;
-}
-.nav_links li a:hover {
-  color:#0088a9; 
-}
-.button { 
-  padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  margin-left: 20px;
-}
-.button:hover{
-  background-color: rgba(0, 136, 169, 0.8);
-}
-}
+  
+   /*         NAIGATION BAR CSS          */
+   /*Other css*/ 
