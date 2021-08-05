@@ -32,7 +32,7 @@ e Font Link */
   transition: all 0.5s ease;
 }
 .sidebar .logo-details .logo_name{
-  color: #FFF;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 600;
   opacity: 0;
@@ -253,16 +253,4 @@ e Font Link */
   .sidebar li .tooltip{
     display: none;
     }
-    .nav-home{
-      float: right;
-    }
-    .nav-features{
-    float: right;
-    }
-    .nav-pricing{
-      float: right;
-    }
   }
-  
-   /*         NAIGATION BAR CSS          */
-   /*Other css*/ 
