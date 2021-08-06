@@ -1,6 +1,7 @@
 /* Goog
 e Font Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700,800,900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ e Font Link */
   left: 0;
   top: 0;
   height: 100%;
-  width: 82px;
+  width: 80px;
   background: #000000;
   padding: 6px 14px;
   z-index: 99;
@@ -219,7 +220,7 @@ e Font Link */
   line-height: 60px;
   border-radius: 0px;
   transition: all 0.5s ease;
-  padding-right: 5px;
+  padding-right: 4.7px;
   
 }
 .sidebar.open .profile #log_out{
@@ -245,7 +246,7 @@ e Font Link */
   color: #ffffff;
   font-size: 25px;
   font-weight: 500;
-  margin:  24px;
+  margin:  20px;
   text-align: justify;
   
   }
@@ -254,3 +255,4 @@ e Font Link */
     display: none;
     }
   }
+  
